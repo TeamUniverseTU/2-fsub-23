@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "22418774"))
 API_HASH = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002081246959"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001896595751"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "2098973647"))
@@ -32,8 +32,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://astroverse:astroverse1714
 DB_NAME = os.environ.get("DATABASE_NAME", "AstroVerse")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001700209396"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001776513379"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001948646707"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001948646707"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
