@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001896595751"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2098973647"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1341195107"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,16 +32,16 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://astroverse:astroverse1714
 DB_NAME = os.environ.get("DATABASE_NAME", "AstroVerse")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001948646707"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001948646707"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001776513379"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001700209396"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "⚡Hɪ ᴅᴜᴅᴇ.. {first}\n\nI ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ​\n​​Yᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ ᴘᴏᴡᴇʀᴇᴅ ʙʏ -​ @Anime_X_Hunters")
 try:
-    ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "6277299135").split()):
+    ADMINS=[2098973647]
+    for x in (os.environ.get("ADMINS", "6174626282").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "​🚫Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ​ - @Anime_X_Hunters"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5090651635)
+ADMINS.append(5691800418)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
