@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>ɪ'ᴍ ᴀ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ...\nɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴀɴɪᴍᴇ, ᴍᴏᴠɪᴇs, sᴇʀɪᴇs ғɪʟᴇs..\n\nCreator - @AryanTeamUniverse\nMy Community - @TeamUniverseOffical\nSupport - @TeamUniverseBotz</a>\n\n👨‍💻 Developed by @AryanTeamUniverse</b>",
+            text = f"<b>ɪ'ᴍ ᴀ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ ...\nɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴀɴɪᴍᴇ, ᴍᴏᴠɪᴇs, sᴇʀɪᴇs ғɪʟᴇs..\n\nCreator - @AryanTeamUniverse\nMy Community - @TeamUniverseOffical\nMy Channel - @AstroNexus</a>\n\n👨‍💻 Developed by @AryanTeamUniverse</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
