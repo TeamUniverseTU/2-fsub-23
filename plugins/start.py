@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("📕 Commands 📕​", callback_data="help")
         ],
         [
-            InlineKeyboardButton("🍁 Community 🍁", url="https://t.me/Cosmicanvas"),
+            InlineKeyboardButton("🍁 Channel 🍁", url="https://t.me/Cosmicanvas"),
             InlineKeyboardButton("❗️Support ❗️", url="https://t.me/TeamUniverseBotz")
         ],
         [
