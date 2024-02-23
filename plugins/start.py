@@ -83,7 +83,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ​", callback_data="help")
+            InlineKeyboardButton("📕 Commands 📕​", callback_data="help")
         ],
         [
             InlineKeyboardButton("🍁 Community 🍁", url="https://t.me/teamUniverseOffical"),
